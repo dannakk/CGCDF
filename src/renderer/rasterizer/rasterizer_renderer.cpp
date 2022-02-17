@@ -19,7 +19,6 @@ void cg::renderer::rasterization_renderer::init()
 	camera->set_z_far(settings->camera_z_far);
 
 
-
 	render_target = std::make_shared<cg::resource<cg::unsigned_color>> (
 			settings->width, settings->height
 			);
